@@ -7,13 +7,14 @@ import MiddleMassage from '../../components/MiddleMassage/MiddleMassage'
 import MiddleBanner from '../../components/MiddleBanner/MiddleBanner'
 import MyCaroselTest from '../../components/MyCaroselTest/MyCaroselTest'
 import { mens_kurta } from '../../../Data/mens_kurta'
+import VideoSection from '../../components/VideoSection/VideoSection'
 
 
 export const HomePage = () => {
     return (
         <div>
 
-
+            <VideoSection />
             <MainCarousel />
 
             <div className='space-y py-20 flex flex-col justify-center px-5 lg:px-10'>
